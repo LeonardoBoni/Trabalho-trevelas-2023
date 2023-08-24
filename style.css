@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+
+.cabecalho{
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    height: 70px;
+    width: auto;
+    background-color: red;
+}
+
+.botao-home{
+    margin-right: 20px;
+    justify-content: center;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.titulo-cabecalho{
+    margin: 0 auto;
+    text-align: center;
+   color: white;
+}
+
+.corpo-home{
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.titulo-corpo-home{
+    padding-top: 100px;
+    margin: 0 auto;
+    color: white;
+    font-family: 30px;
+    text-align: center;
+}
+
+.texto-corpo-home{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.botao-corpo{
+    margin: 0 30px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+
+/*pagina dos compressores*/
+
+.corpo-compressor{
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+    height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+}
+
+.titulo-corpo-compressor{
+    text-decoration: underline;
+    padding-top: 100px;
+    margin: 0 auto;
+    color: white;
+    font-family: 30px;
+    text-align: center;
+}
+
+.subtitulo-corpo-home{
+    padding: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+}
