@@ -135,3 +135,10 @@ body{
     font-size: 20px;
     margin: 0 auto;
 }
+
+.texto-corpo-compressor{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+}
