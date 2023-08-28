@@ -1,10 +1,32 @@
+const zeroFill = n => {
+    return ('0' + n).slice(-2);
+}
+
+const interval = setInterval(() => {
+    const now = new Date();
+
+    const dataHora = zeroFill(now.getUTCDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + zeroFill(now.getMinutes()) + ':' + zeroFill(now.getSeconds());
+
+    document.getElementById('data-hora').innerHTML = dataHora;
+}, 1000);
+
+const options = {
+	timeZone: 'America/Sao_Paulo',
+	hour: 'numeric',
+	minute: 'numeric'
+};
+
+
 function home(){
-    window.location.href = 'index.html';
+    window.location.href = "index.html"
+}
+
+var estado = document.getElementById('estado')
+
+function teste(){
+    window.location.href = 'compressor1.html'
 }
 
 function compressor1(){
-    window.location.href = 'compressor1.html';
-    var teste = document.getElementById("texto-corpo-compressor");
-    teste.innerHTML = "Novo texto para o corpo do compressor.";
-    
+    estado.innerText = "ligado"
 }
