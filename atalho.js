@@ -23,18 +23,50 @@ function home(){
 
 
 
-function compressor1(){
-    window.location.href = 'compressor1.html'
+function compressor1() {
+
+    window.location.href = 'compressor1.html';
 }
 
-function compressor2(){
-    window.location.href = 'compressor2.html'
+
+const estadocompressor1 = "LIGADO";
+const tempoestado1 = 10;
+const pressao1 = 100;
+const umidadee1 = 50;
+var estado1 = document.getElementById('estado');
+var tempo1 = document.getElementById('tempo');
+var press1 = document.getElementById('pressao');
+var umidade1 = document.getElementById('umidade');
+
+function refresh(){
+    estado1.innerHTML = `${estadocompressor}`;
+    tempo1.innerHTML = `${tempoestado}`;
+    press1.innerHTML = `${pressao}`;
+    umidade1.innerHTML = `${umidadee}`
 }
 
-var txt = window.document.getElementsByClassName('texto-corpo-compressor');
-const estado = 0;
+function compressor2() {
 
-
-function receba(){
-    txt.innerHTML = `<p class="texto-corpo-compressor">°O compressor está ${estado} </p>`
+    window.location.href = 'compressor2.html';
 }
+
+
+const estadocompressor2 = "LIGADO";
+const tempoestado2 = 10;
+const pressao2 = 100;
+const umidadee2 = 50;
+var estado2 = document.getElementById('estado');
+var tempo2 = document.getElementById('tempo');
+var press2 = document.getElementById('pressao');
+var umidade2 = document.getElementById('umidade');
+
+function refresh(){
+    estado2.innerHTML = `${estadocompressor2}`;
+    tempo2.innerHTML = `${tempoestado2}`;
+    press2.innerHTML = `${pressao2}`;
+    umidade2.innerHTML = `${umidadee2}`
+}
+
+
+
+
