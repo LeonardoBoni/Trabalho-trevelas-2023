@@ -21,12 +21,20 @@ function home(){
     window.location.href = "index.html"
 }
 
-var estado = document.getElementById('estado')
 
-function teste(){
+
+function compressor1(){
     window.location.href = 'compressor1.html'
 }
 
-function compressor1(){
-    estado.innerText = "ligado"
+function compressor2(){
+    window.location.href = 'compressor2.html'
+}
+
+var txt = window.document.getElementsByClassName('texto-corpo-compressor');
+const estado = 0;
+
+
+function receba(){
+    txt.innerHTML = `<p class="texto-corpo-compressor">°O compressor está ${estado} </p>`
 }
