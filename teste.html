@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de monitoramento de compressores</title>
+    <div id="data-hora"></div>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <input type="button" class="botao-home" value="HOME" onclick="home()">
+            <h1 class="titulo-cabecalho"><strong>Sistema de monitoramento dos compressores de ar do SENAI-Araçatuba.</strong> </h1>
+        </div>
+    </header>
+
+    <section class="corpo-home">
+        <h1 class="titulo-corpo-home">Selecione um compressor!</h1>
+        <p class="texto-corpo-home">Ao selecionar uns dos compressores, será mostrado os dados dos compressores escolhidos<strong>(pressão, umidade, estado do motor e quanto tempo ele está nessa condição)</strong> que são atualizados em tempo real.</p>
+        <input type="button" class="botao-corpo" value="Compressor de ar 1" onclick="compressor1()">
+        <input type="button" class="botao-corpo" value="Compressor de ar 2" onclick="compressor2()">
+        <img src="senai logo.png" class="imagem-logo" alt="logo-senai">
+    </section>
+    <footer class="rodape">
+        <p class="texto-rodape">
+            &copy;Produzido pelos alunos de Eletroeletrônica 2023
+        </p>
+    </footer>
+    
+</body>
+<script src="atalho.js"></script>
+</html>
